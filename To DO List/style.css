@@ -1,0 +1,190 @@
+/*
+1) Universal Selector e.g. *
+2) Tag/Type Selector e.g. p, h1
+3) ID Selector e.g. #idname
+4) Class Selector e.g. .classname
+5) Child Selector e.g. div>p (style will apply
+ on the first level child only)
+6) Descendant Selector e.g. div p (style will
+apply on all level children)
+7) Adjacent Sibling Selector e.g. h1+p
+8) General Sibling Selector e.g. h1~p
+*/
+
+* {
+    /* border: 5px solid lightcoral */
+    /* font-family: 'Lacquer'; */
+    text-align: center;
+    background-color: #000;
+    color: #fff !important;
+}
+
+/*
+1) Color name
+2) Hex code: #97ad9d
+3) RBG code
+*/
+
+li, h1, p {
+    color: rgba(179, 77, 77, 0.8)
+}
+
+/* #chota-paragraph {
+    font-size: 8px
+} */
+
+p {
+    font-size: 60px;
+    /* opacity: 0.5; */
+}
+
+p {
+    font-size: 50px
+}
+
+.bara-paragraph { 
+    font-size: 40px;
+    color: purple
+}
+
+p.bara-paragraph {
+    border: 1px solid brown
+}
+
+li.bara-paragraph {
+    border: 1px solid yellow
+}
+
+ol>li {
+   text-shadow: 1px 2px 2px gray; 
+}
+
+/* div>p {
+    font-size: 80px;
+} */
+
+div p {
+    font-size: 80px
+}
+
+/* h1+p {
+    font-size: 150px;
+} */
+
+/* tilde */
+h1+p {
+    font-size: 50px;
+    font-family: 'Lacquer';
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: overline;
+    letter-spacing: 5px;
+    word-spacing: 40px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Lacquer';
+    src: url('assets/fonts/Lacquer-Regular.ttf');
+}
+
+#image {
+    vertical-align: center;
+}
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:active {
+    color: green;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+/* input:focus {
+    font-size: 14px;
+    background-color: gray;
+    color: white;
+    font-family: 'Lacquer';
+} */
+
+#border-p {
+    font-size: 20px;
+    border-width: 45px;
+    border-style: solid;
+    border-top-color: yellow;
+    border-bottom-color: orange;
+    border-radius: 180px;
+    width: 180px;
+    height: 180px;
+    overflow: scroll;
+}
+
+.border {
+    border: 1px solid black
+}
+
+#parent-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    color: black;
+    border: 2px solid red;
+    /* background-image: url("assets/images/yetohoga.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.corona {
+    height: 50px;
+    width: 50px;
+    background-color: honeydew;
+    border-top: 1px solid black;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+    display: inline;
+}
+
+.bird-flu {
+    display: block;
+}
+
+ul {
+    list-style-type: square;
+    /* list-style-image: url("assets/images/yetohoga.jpg") */
+}
+
+/* UNITS
+1) px (pixel)
+2) % (percent)
+3) em (emphemeral unit)
+4) vw (view width)
+5) vh (view height)
+*/
+
+/* POSITIONS
+1) static: BY DEFAULT. It effects it's relatives
+
+2) fixed: It's sticks to a position & it's fixed
+upon scrolling & doesn't effect it's relatives
+
+3) absolute: It also sticks to a position but
+isn't fixed upon scrolling & doesn't effect
+it's relatives
+
+4) relative: It also sticks to a position but
+it's starting point is where it renders & doesn't
+effect it's relatives
+*/

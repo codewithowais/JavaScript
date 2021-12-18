@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>CSS 1</title>
+
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<h1>Todo List</h1>
+
+	<div id="input-area">
+		<input id="input" 
+		onfocus="jabFocusHo()"
+		onblur="addItem()"
+		onkeyup="jabKeyUpHo(event)"
+		placeholder="Write any item name here..." size="40"/>
+		<button onmouseover="addItem()">Add</button>
+	</div>
+
+	<ul id="list">
+    </ul>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>

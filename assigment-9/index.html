@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="" method="POST">
+
+        <div class="login-box">
+            <h1>Sign Up</h1>
+            <div class="textbox">
+                <i class="fas fa-user fa-envelope"></i>
+                <input type="email" required id="email" placeholder="User name or email">
+                <p class="mailError" style="color: red; display: inline;"></p>
+            </div>
+
+
+            <div class="textbox">
+                <i class="fas fa-lock"></i>
+                <input type="password" required id="pass" placeholder="Password">
+                <p id="passError" style="display: inline;"></p>
+            </div>
+
+
+
+            <div class="textbox">
+                <i class="fas fa-lock"></i>
+                <input type="password" required id="confirmPass" placeholder="Confirm Password">
+                <p id="para" style="color: red; display: inline;"></p>
+            </div>
+
+
+            <div class="radiobox"> Gender
+                <input type="radio" value="Male" name="gender" id="genderName1" required>Male
+                <input type="radio" value="Female" name="gender" id="genderName2" required>Female
+            </div>
+
+            <input type="button" value="Signup" class="btn" onClick="signup()">
+
+    </form>
+
+</body>
+
+<script src="index.js"></script>
+
+</html>

@@ -1,0 +1,32 @@
+html,body{
+    background-color: lightgray !important;
+}
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.text-center{
+    margin: 05px 0px 0px 0px !important;
+    background-color: rgb(28, 144, 144);
+    padding: 10px 0% 10px 0%;
+    color: #fff;
+    font-family: cursive;
+}
+.text-center>h1{
+    font-size: 50px !important;
+
+}
+ol{
+    margin-bottom: auto;
+    padding: 15px 10px 10px 100px;
+    
+}
+li{
+    margin: 20px 0 10px 0;
+    margin-bottom: auto;
+    padding: 15px 10px 10px 40px;
+}
+input[type=radio]{
+    /* padding: 10px 10px 10px 10px !important; */
+    margin: 10px 10px 10px 10px !important;
+}
